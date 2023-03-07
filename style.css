@@ -1,16 +1,103 @@
+
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
 html { box-sizing: border-box; }
-*, ::after, ::before { box-sizing: inherit; }
+*, ::after, ::before { box-sizing: inherit;
+} */
+
+*{ 
+    background-color: #b2bec3;
+}
+
+.vizitka{
+    border: 2px  white solid;
+    width: 550px;
+    border-radius:10px ;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:white;
+    position: static;
+    box-shadow: black 4px 6px 20px; 
+    
+}
+
+h1{
+    color: #d63031;
+    font-size: 36px;
+    font-weight: bold;
+    margin:0px;
+    padding-bottom: 30px;
+    background-color:white;
+}
+
+p {  
+    font-size: 18px;
+    margin:0px;
+    padding-bottom: 30px;
+    background-color:white;
+    
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    border:3px white solid;
+    border-radius: 150px;
+    position:absolute;
+    left: 965px;
+    top:90px
+
+}
+
+
+.Twitter a {
+    color:white;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border:2px #1da1f2;
+    background-color:#1da1f2;
+    border-radius:5px ;
+    margin-bottom: 10px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 10px;
+}
+
+.Twitter a:hover{
+    background-color: #0b7bc1;
+}
+
+.Facebook a {
+    border:2px #3b5998;
+    background-color: #3b5998;
+    border-radius:5px ;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 10px;    
+}
+
+.Facebook a:hover{
+    background-color: #2b406e;
+}
+
+
 
 /*
 BARVY:
 šedá na pozadí stránky:		 #b2bec3
 červená na hlavní nadpis:  #d63031
-
 tlačítko Twitter:					 #1da1f2
 tlačítko Twitter aktivní:	 #0b7bc1
-
 tlačítko Facebook:				 #3b5998
 tlačítko Facebook aktivní: #2b406e
 */
-
