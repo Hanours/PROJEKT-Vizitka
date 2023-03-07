@@ -1,10 +1,12 @@
 
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
-html { box-sizing: border-box; }
+html { box-sizing: border-box; 
+    background-color: #b2bec3;
+    font-family: 'Nunito', sans-serif;}
 *, ::after, ::before { box-sizing: inherit;
 } */
 
-*{ 
+body{ 
     background-color: #b2bec3;
 }
 
