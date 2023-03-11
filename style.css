@@ -10,6 +10,7 @@ body{
     background-color: #b2bec3;
 }
 
+
 .vizitka{
     border: 2px  white solid;
     width: 550px;
@@ -20,9 +21,20 @@ body{
     margin-left: auto;
     margin-right: auto;
     background-color:white;
-    position: static;
+    position: relative;
     box-shadow: black 4px 6px 20px; 
     
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    border:3px white solid;
+    border-radius: 150px;
+    position:absolute;
+    left: 490px;
+    top:-50px
+
 }
 
 h1{
@@ -42,16 +54,6 @@ p {
     
 }
 
-img{
-    width: 150px;
-    height: 150px;
-    border:3px white solid;
-    border-radius: 150px;
-    position:absolute;
-    left: 965px;
-    top:90px
-
-}
 
 
 .Twitter a {
@@ -91,6 +93,7 @@ img{
 .Facebook a:hover{
     background-color: #2b406e;
 }
+
 
 
 
